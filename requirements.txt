@@ -1,5 +1,4 @@
 discord.py==0.16.
-commands.py
 Bot.py
 asyncio.py
 aiohttp.py
