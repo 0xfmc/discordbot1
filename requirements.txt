@@ -1,5 +1,2 @@
 discord.py==0.16.12
-asyncio.py
-aiohttp.py
-random.py
 datetime.py
