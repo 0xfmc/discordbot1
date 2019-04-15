@@ -1,7 +1,5 @@
-discord.py==0.16.
-Bot.py
+discord.py==0.16.12
 asyncio.py
 aiohttp.py
-string.py
 random.py
 datetime.py
