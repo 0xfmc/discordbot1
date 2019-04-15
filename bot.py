@@ -270,5 +270,4 @@ async def 배그(ctx):
     await bot.say(embed=embed)
 
 
-# 봇 토큰은 위의 TOKEN에 붙여넣어주세요
 bot.run(TOKEN)
