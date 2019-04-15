@@ -6,10 +6,10 @@ import aiohttp
 import string
 import random
 import datetime
+import os
 
 bot = commands.Bot(command_prefix='!')
 bot.remove_command("help")
-TOKEN = ('NTYxODg2MzM3MDMzMzA2MTE0.XKCwnA.ntbYRuD_snaAija_gXtvVdNoLXo')
 
 @bot.event
 async def on_ready():
@@ -270,4 +270,5 @@ async def 배그(ctx):
     await bot.say(embed=embed)
 
 
-bot.run(TOKEN)
+access_token = os.environ["BOT_TOKEN"]
+bot.run(access_tokken)
