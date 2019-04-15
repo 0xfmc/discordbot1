@@ -1,1 +1,8 @@
 discord.py==0.16.12
+commands
+asyncio
+Bot
+aiohttp
+string
+random
+datetime
