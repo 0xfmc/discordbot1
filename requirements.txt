@@ -1,5 +1,5 @@
 discord.py==0.16.12
-start bot.py
+bot.py
 aiohttp
 asyncio
 datetime
