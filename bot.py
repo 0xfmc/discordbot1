@@ -2,14 +2,11 @@ import discord
 import asyncio
 import random
 import time
-from urllib.request import urlopen, Request
 import urllib
 import bs4
-from urllib.request import Request
 import string
 import re
 import requests
-from bs4 import BeautifulSoup
 import datetime
 import os
 import sys
