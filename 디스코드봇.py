@@ -62,7 +62,7 @@ async def on_message(message):
          
          
          file = open(n + ".txt", "w")
-         file.write("제작 : ! ㈜인 찾음#6686\n\n"
+         file.write("제작 : 5.56mm#1944\n\n"
                     "문서작성기\n\n"    
                     "첫줄 : " + d + "\n\n"
                     "두줄 : " + a + "\n\n"         
@@ -154,11 +154,7 @@ async def on_message(message):
      if message.content.startswith('_도움말'):
           await app.send_message(channel,'DM으로 보냈습니다!')
           member = discord.utils.get(app.get_all_members(),id=message.author.id)
-          embed = discord.Embed(
-            title = '봇의 기능들입니다.',
-            description = '명령어가 너무 적어서 따로 적었어용!',
-            colour = discord.Colour.blue()
-          )
+          embed = discord.Embed(title = '봇의 기능들입니다.', description = '명령어가 너무 적어서 따로 적었어용!', colour = discord.Colour.blue())
           embed.add_field(name='_도움말', value = '이메시지 생성!',inline = False)
           embed.add_field(name='_업타임', value = '봇이 켜진시간 확인!',inline = False)
           embed.add_field(name='_날씨 지역', value = '날씨확인',inline = False)
