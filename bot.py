@@ -14,8 +14,7 @@ async def on_ready():
     print("디스코드 봇 작동을 시작합니다.")
     print("봇 아이디: " + bot.user.id)
     print("=============================")
-    await bot.change_presence(game=discord.Game(name="!명령어 Made by 5.56mm",
-                                                type=1))
+    await bot.change_presence(game=discord.Game(name="!명령어 Made by 5.56mm", type=1))
 
 
 @bot.command(pass_context=True)
